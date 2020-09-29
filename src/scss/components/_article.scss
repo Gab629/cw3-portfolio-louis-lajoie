@@ -1,0 +1,51 @@
+
+.articles{
+  padding: var(--padding-thin);
+}
+
+.creation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: var(--padding-large) var(--padding-thin);
+
+
+  text-align: center;
+}
+
+img {
+  width: 45px;
+}
+
+@media screen and (min-width: $vw-medium) {
+
+  .articles {
+
+    .flex {
+      display: flex;
+      flex-direction: row;
+
+      flex-wrap: wrap;
+    }
+
+    .creation {
+      width: 48%;
+    }
+  }
+
+}
+
+@media screen and (min-width: $vw-large) {
+
+  .articles{
+
+    .creation {
+      width: 31%;
+    }
+
+  }
+
+
+}
+

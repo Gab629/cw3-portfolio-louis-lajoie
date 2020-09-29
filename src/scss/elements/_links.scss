@@ -6,10 +6,11 @@ a{
 
   &:visited{
     color: var(--color-visited-link);
-    text-decoration: underline;
+
   }
 
   &:hover{
     color: var(--color-link-hover);
+    text-decoration: underline;
   }
 }
